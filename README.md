@@ -6,6 +6,7 @@
 Requires an Anthropic API key. Generates Yoda-style Q&A pairs from TriviaQA questions using Claude.
 
 `export ANTHROPIC_API_KEY="sk-ant-..."`
+
 `python make_yoda_dataset.py --num-questions 2000 --num-workers 48 --output-file yoda_dataset.jsonl`
 
 ###2. Fine-tune Kimi-K2 with LoRA
