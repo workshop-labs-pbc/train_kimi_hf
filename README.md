@@ -1,8 +1,8 @@
-# How (not) to train Kimi-K2-Thinking with HuggingFace
+# How to get Kimi-K2-Thinking training with HuggingFace
 
 See [our blog post](https://workshoplabs.ai/blog/open-weights-open-training) for details.
 
-This is *not* intended to actually be used for post-training of Kimi K2 Thinking - it is slow and inefficient. It is a demonstration of the patches needed to make it even work in principle on top of HuggingFace.
+This is *not* intended to actually be used for LoRA post-training of Kimi K2 Thinking. It is a demonstration of the patches needed to make it even work in principle on top of HuggingFace, and it does not train the quantized experts or use efficient parallelism.
 
 ## Usage
 
